@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 Run the script using the following command:
 ```
-python caesar.py [-e] [-d] [-s SHIFT] [-t TEXT] [-f FILE]
+python3 caesar.py [-e] [-d] [-s SHIFT] [-t TEXT] [-f FILE]
 ```
 
 ### Options
@@ -33,22 +33,22 @@ python caesar.py [-e] [-d] [-s SHIFT] [-t TEXT] [-f FILE]
 
 Encrypting a text:
 ```
-python caesar.py -e -t "A text"
+python3 caesar.py -e -t "A text"
 ```
 
 Decrypting a text:
 ```
-python caesar.py -d -t "D whaw"
+python3 caesar.py -d -t "D whaw"
 ```
 
 Encrypting the content of a file:
 ```
-python caesar.py -e -f input.txt
+python3 caesar.py -e -f input.txt
 ```
 
 Decrypting the content of a file:
 ```
-python caesar.py -d -f input.txt
+python3 caesar.py -d -f input.txt
 ```
 
 ## Acknowledgements
